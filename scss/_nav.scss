@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+  ul {
+    display: inline-flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  .logo {
+    margin-right: auto;
+    margin-left: 0;
+    height: 2rem;
+  }
+}

@@ -1,0 +1,25 @@
+.productive {
+  position: relative;
+  padding-bottom: 3rem;
+  .background {
+    position: absolute;
+    top: -3rem;
+    z-index: -1;
+    width: 100vw;
+    left: -1.5rem;
+  }
+  .background2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    left: -1.5rem;
+    height: 100%;
+    background-color: #f8f8fe;
+  }
+
+  h4 {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+}

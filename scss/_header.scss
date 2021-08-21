@@ -1,0 +1,22 @@
+header {
+  text-align: center;
+  padding: 5rem 0;
+  h3 {
+    padding-top: 1rem;
+  }
+  p {
+    padding: 2rem 0;
+  }
+  form {
+    p {
+      color: red;
+    }
+  }
+}
+input {
+  margin-bottom: 1rem;
+}
+
+form p {
+  display: none;
+}

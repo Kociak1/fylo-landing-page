@@ -1,0 +1,63 @@
+$Bright-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+footer {
+  background-color: $Bright-Blue;
+  position: relative;
+  .background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    left: -1.5rem;
+    height: 100%;
+    background-color: $Bright-Blue;
+  }
+  color: white;
+  padding: 2rem;
+  ol {
+    padding-left: 0.7rem;
+  }
+
+  li {
+    list-style: none;
+    padding: 1rem 0;
+  }
+  .sccials {
+    padding: 2rem 0;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  svg {
+    fill: white;
+  }
+  .logo {
+    margin: 2rem 0;
+  }
+}
+
+.phone {
+  list-style-image: url("./images/icon-phone.svg");
+}
+
+.email {
+  list-style-image: url("./images/icon-email.svg");
+}
+
+.social {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+    border-color: $Desaturated-Blue;
+    svg {
+      fill: $Desaturated-Blue;
+    }
+  }
+}
